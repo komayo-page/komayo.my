@@ -1,144 +1,245 @@
-<!DOCTYPE html>
-<html lang="my" dir="ltr" itemscope itemtype="https://schema.org/ShortStory">
+<!doctype html>
+<html lang="my" dir="ltr">
   <head>
-    <title>Demon ၏ Shōgi ဂိမ်း</title>
+    <title>ဩဂီ အစိတ်အပိုင်းများ၏ စုန်းမ</title>
 
     <meta charset="UTF-8">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
+
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="လပြည့်၏ ဆန်းကြယ်သောအလင်းရောင်တွင်၊ ဂျပန်ရိုးရာပုံပြင်မှ မှော်ဆရာ yōkai ၏ ကိုမာယို ဇာတ်လမ်းကို ရှာဖွေပါ။ ဆွဲဆောင်မှုရှိပြီး သေစေတတ်သော၊ သူမသည် သူတို့၏အသက်စွမ်းအင်ကို စုပ်ယူကာ ထာဝရညှဉ်းဆဲခြင်းသို့ လွှမ်းမိုးသွားသော ōgi ဂိမ်းတွင် ဆုံးရှုံးသွားသောဝိညာဉ်များကို ဆွဲဆောင်သည်။ ၎င်းသည် ပြင်းထန်သောဆွဲဆောင်မှုနှင့် မလိုအပ်သောဆန္ဒများ၏ ဇာတ်လမ်းဖြစ်ပြီး၊ သွေးဆောင်မှုအန္တရာယ်များကို ဆန့်ကျင်သည့် ပြင်းထန်သောသတိပေးချက်တစ်ခုဖြစ်သည်။">
-    <meta name="keywords" content="တစ္ဆေဇာတ်လမ်း, ကိုမာယို, obake, ōgi, shōgi, yōkai, yūrei">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ ဩဂီ ကစားသမားများကို ညဘက်ကစားပွဲများဆီသို့ ဆွဲဆောင်ပြီးနောက် နတ်ဆိုးအဖြစ်သို့ ပြောင်းလဲစေသော ကိုမာယို ဟုခေါ်သော နတ်ဆိုးတစ်ကောင်အကြောင်း ဂျပန်ရိုးရာပုံပြင်တစ်ပုဒ်။">
+    <meta name="keywords" content="ကိုမာယို, နတ်ဆိုး, သရဲ, ဩဂီ, ပုံပြင်, ဂျပန်ဒဏ္ဍာရီ, သရဲပုံပြင်, ရိုးရာကစားနည်း, ကီမိုနို, သဘာဝလွန်ဆွဲဆောင်မှု">
+    <meta name="robots" content="index,follow">
     <meta name="author" content="Cyril Veltin">
-    <meta property="og:title" content="Demon ၏ Shōgi ဂိမ်း">
-    <meta property="og:type" content="book">
+    <meta name="copyright" content="Cyril Veltin 2023">
+
+    <meta property="og:site_name" content="Komayō">
+    <meta property="og:locale" content="my_MM">
+    <meta property="og:title" content="ဩဂီ အစိတ်အပိုင်းများ၏ စုန်းမ">
+    <meta property="og:description" content="နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ ဩဂီ ကစားသမားများကို ညဘက်ကစားပွဲများဆီသို့ ဆွဲဆောင်ပြီးနောက် နတ်ဆိုးအဖြစ်သို့ ပြောင်းလဲစေသော ကိုမာယို ဟုခေါ်သော နတ်ဆိုးတစ်ကောင်အကြောင်း ဂျပန်ရိုးရာပုံပြင်တစ်ပုဒ်။">
+    <meta property="og:type" content="book:folklore">
     <meta property="og:url" content="https://my.komayo.page/">
-    <meta property="og:image" content="https://my.komayo.page/img/komayo-1024x1024.webp">
-    <meta property="og:description" content="လပြည့်၏ ဆန်းကြယ်သောအလင်းရောင်တွင်၊ ဂျပန်ရိုးရာပုံပြင်မှ မှော်ဆရာ yōkai ၏ ကိုမာယို ဇာတ်လမ်းကို ရှာဖွေပါ။ ဆွဲဆောင်မှုရှိပြီး သေစေတတ်သော၊ သူမသည် သူတို့၏အသက်စွမ်းအင်ကို စုပ်ယူကာ ထာဝရညှဉ်းဆဲခြင်းသို့ လွှမ်းမိုးသွားသော ōgi ဂိမ်းတွင် ဆုံးရှုံးသွားသောဝိညာဉ်များကို ဆွဲဆောင်သည်။ ၎င်းသည် ပြင်းထန်သောဆွဲဆောင်မှုနှင့် မလိုအပ်သောဆန္ဒများ၏ ဇာတ်လမ်းဖြစ်ပြီး၊ သွေးဆောင်မှုအန္တရာယ်များကို ဆန့်ကျင်သည့် ပြင်းထန်သောသတိပေးချက်တစ်ခုဖြစ်သည်။">
-    <meta itemprop="name" content="Demon ၏ Shōgi ဂိမ်း">
-    <meta itemprop="description" content="လပြည့်၏ ဆန်းကြယ်သောအလင်းရောင်တွင်၊ ဂျပန်ရိုးရာပုံပြင်မှ မှော်ဆရာ yōkai ၏ ကိုမာယို ဇာတ်လမ်းကို ရှာဖွေပါ။ ဆွဲဆောင်မှုရှိပြီး သေစေတတ်သော၊ သူမသည် သူတို့၏အသက်စွမ်းအင်ကို စုပ်ယူကာ ထာဝရညှဉ်းဆဲခြင်းသို့ လွှမ်းမိုးသွားသော ōgi ဂိမ်းတွင် ဆုံးရှုံးသွားသောဝိညာဉ်များကို ဆွဲဆောင်သည်။ ၎င်းသည် ပြင်းထန်သောဆွဲဆောင်မှုနှင့် မလိုအပ်သောဆန္ဒများ၏ ဇာတ်လမ်းဖြစ်ပြီး၊ သွေးဆောင်မှုအန္တရာယ်များကို ဆန့်ကျင်သည့် ပြင်းထန်သောသတိပေးချက်တစ်ခုဖြစ်သည်။">
-    <meta itemprop="image" content="https://my.komayo.page/img/komayo-1024x1024.webp">
+    <meta property="og:image" content="https://my.komayo.page/img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_1024.webp">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:image:alt" content="လပြည့်လရောင်အောက်တွင် ကီမိုနိုဝတ်ထားသော အမျိုးသမီး၊ ခေတ်သစ်ဂျပန်ပန်းချီ">
+    <meta property="og:article:author" content="Cyril Veltin">
+    <meta property="og:article:published_time" content="2023-06-26">
+
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Demon ၏ Shōgi ဂိမ်း">
-    <meta name="twitter:description" content="လပြည့်၏ ဆန်းကြယ်သောအလင်းရောင်တွင်၊ ဂျပန်ရိုးရာပုံပြင်မှ မှော်ဆရာ yōkai ၏ ကိုမာယို ဇာတ်လမ်းကို ရှာဖွေပါ။ ဆွဲဆောင်မှုရှိပြီး သေစေတတ်သော၊ သူမသည် သူတို့၏အသက်စွမ်းအင်ကို စုပ်ယူကာ ထာဝရညှဉ်းဆဲခြင်းသို့ လွှမ်းမိုးသွားသော ōgi ဂိမ်းတွင် ဆုံးရှုံးသွားသောဝိညာဉ်များကို ဆွဲဆောင်သည်။ ၎င်းသည် ပြင်းထန်သောဆွဲဆောင်မှုနှင့် မလိုအပ်သောဆန္ဒများ၏ ဇာတ်လမ်းဖြစ်ပြီး၊ သွေးဆောင်မှုအန္တရာယ်များကို ဆန့်ကျင်သည့် ပြင်းထန်သောသတိပေးချက်တစ်ခုဖြစ်သည်။">
-    <meta name="twitter:image" content="https://my.komayo.page/img/komayo-1024x1024.webp">
+    <meta name="twitter:title" content="ဩဂီ အစိတ်အပိုင်းများ၏ စုန်းမ">
+    <meta name="twitter:description" content="နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ ဩဂီ ကစားသမားများကို ညဘက်ကစားပွဲများဆီသို့ ဆွဲဆောင်ပြီးနောက် နတ်ဆိုးအဖြစ်သို့ ပြောင်းလဲစေသော ကိုမာယို ဟုခေါ်သော နတ်ဆိုးတစ်ကောင်အကြောင်း ဂျပန်ရိုးရာပုံပြင်တစ်ပုဒ်။">
+    <meta name="twitter:image" content="https://my.komayo.page/img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_1024.webp">
 
-      <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
-      <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
-      <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
-      <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
-      <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
-      <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
-      <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
-      <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
-      <link rel="alternate" hreflang="jv" href="https://jv.komayo.page/">
-      <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
-      <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
-      <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
-      <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
-      <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
-      <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
-      <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
-      <link rel="alternate" hreflang="ta" href="https://ta.komayo.page/">
-      <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
-      <link rel="alternate" hreflang="th" href="https://th.komayo.page/">
-      <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
-      <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
-      <link rel="alternate" hreflang="zh" href="https://zh.komayo.page/">
+    <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
+    <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
+    <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
+    <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
+    <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
+    <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
+    <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
+    <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
+    <link rel="alternate" hreflang="jv" href="https://jv.komayo.page/">
+    <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
+    <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
+    <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
+    <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
+    <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
+    <link rel="alternate" hreflang="my" href="https://my.komayo.page/">
+    <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
+    <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
+    <link rel="alternate" hreflang="ta" href="https://ta.komayo.page/">
+    <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
+    <link rel="alternate" hreflang="th" href="https://th.komayo.page/">
+    <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
+    <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
+    <link rel="alternate" hreflang="zh" href="https://zh.komayo.page/">
+
     <link rel="canonical" href="https://my.komayo.page/">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
 
-    <style media="screen">
-      @media (prefers-color-scheme: light) {
-        :root {
-          --background-color: white;
-          --color: black;
-          --link-color: #6d071a;
-          --quote-color: #6d071a;
-          --shadow-color: #ccc;
-          --article-title-text-color: #000;
-          --article-title-shadow-color: #ccc;
-        }
-      }
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Komayō">
+    <link rel="manifest" href="/site.webmanifest">
 
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --background-color: black;
-          --color: white;
-          --link-color: #e37f98;
-          --quote-color: #e37f98;
-          --shadow-color: #58354d;
-          --article-title-text-color: #fff;
-          --article-title-shadow-color: #333;
-        }
-      }
-    </style>
-
-    <link rel="stylesheet" href="css/all.css" media="all">
-    <link rel="stylesheet" href="css/print.css" media="print">
-    <link rel="stylesheet" href="css/screen.css" media="screen">
+    <link href="/all.css" rel="stylesheet">
 
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ShortStory",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://my.komayo.page/"
+        "@id": "https://my.komayo.page/",
+        "url": "https://my.komayo.page/",
+        "@language": "my",
+        "hasPart": [
+          {
+            "@type": "Game",
+            "headline": "မင်းသမီးဂိမ်း",
+            "name": "ဂိမ်း",
+            "@id": "https://ogi.page/",
+            "url": "https://ogi.page/"
+          }
+        ],
+        "keywords": [
+          "ကိုမာယို",
+          "နတ်ဆိုး",
+          "သရဲ",
+          "ဩဂီ",
+          "ပုံပြင်",
+          "ဂျပန်ဒဏ္ဍာရီ",
+          "သရဲပုံပြင်",
+          "ရိုးရာကစားနည်း",
+          "ကီမိုနို",
+          "သဘာဝလွန်ဆွဲဆောင်မှု"
+        ],
+        "timeRequired": "PT4M",
+        "author": {
+          "@type": "Person",
+          "name": "Cyril Veltin"
         },
+        "copyrightHolder": {
+          "@type": "Person",
+          "name": "Cyril Veltin"
+        },
+        "copyrightYear": "2023",
+        "dateModified": "2023-06-26",
+        "datePublished": "2023-06-26",
+        "description": "နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ ဩဂီ ကစားသမားများကို ညဘက်ကစားပွဲများဆီသို့ ဆွဲဆောင်ပြီးနောက် နတ်ဆိုးအဖြစ်သို့ ပြောင်းလဲစေသော ကိုမာယို ဟုခေါ်သော နတ်ဆိုးတစ်ကောင်အကြောင်း ဂျပန်ရိုးရာပုံပြင်တစ်ပုဒ်။",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://my.komayo.page/img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_1024.webp",
+          "width": "1024",
+          "height": "1024",
+          "caption": "လပြည့်လရောင်အောက်တွင် ကီမိုနိုဝတ်ထားသော အမျိုးသမီး၊ ခေတ်သစ်ဂျပန်ပန်းချီ"
+        },
+        "genre": [
+          "ပုံပြင်",
+          "ဂျပန်ဒဏ္ဍာရီ",
+          "စိတ်ကူးယဉ်ဝတ္ထု"
+        ],
+        "inLanguage": "my",
+        "headline": "ဩဂီ အစိတ်အပိုင်းများ၏ စုန်းမ",
+        "name": "သရဲပုံပြင်",
         "publisher": {
           "@type": "Organization",
           "name": "Sashité",
           "url": "https://sashite.com/"
         },
-        "author": {
+        "abstract": "ညဘက်ကစားပွဲများအတွင်း ဩဂီ ကစားသမားများကို ဆွဲဆောင်သော နတ်ဆိုးတစ်ကောင်အကြောင်း ဂျပန်သရဲပုံပြင်တစ်ပုဒ်။",
+        "accessMode": ["textual", "visual"],
+        "accessModeSufficient": ["textual"],
+        "character": "ကိုမာယို",
+        "contentLocation": "ကန်ဆိုင်း၊ ဂျပန်",
+        "isAccessibleForFree": true,
+        "isFamilyFriendly": true,
+        "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "sdDatePublished": "2023-06-26",
+        "sdPublisher": {
+          "@type": "Organization",
+          "name": "Sashité"
+        },
+        "teaches": "မသိသောအရာများကို သတိထားရန်နှင့် ဆွဲဆောင်မှု၏အန္တရာယ်များ",
+        "temporal": "ခေတ်ပြိုင်ကာလ",
+        "text": "နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ စွဲမက်ဖွယ်ကောင်းသော နတ်ဆိုးတစ်ကောင်သည် လမ်းပျောက်နေသော ခရီးသွားများကို ဆွဲဆောင်ရန် ပေါ်လာသည်ဟု ပြောကြသည်...",
+        "typicalAgeRange": "16+",
+        "about": "ရိုးရာကစားနည်းများနှင့် ဆက်စပ်နေသော ဂျပန်ဒဏ္ဍာရီသတ္တဝါ",
+        "accessibilityFeature": ["alternativeText", "readingOrder", "structuralNavigation"],
+        "accessibilitySummary": "ပုံဖော်ပြချက်များနှင့် စနစ်တကျ လမ်းညွှန်မှုဖြင့် ရရှိနိုင်သော စာသား",
+        "accountablePerson": {
           "@type": "Person",
           "name": "Cyril Veltin"
         },
-        "inLanguage": "my",
-        "headline": "Demon ၏ Shōgi ဂိမ်း",
-        "description": "လပြည့်၏ ဆန်းကြယ်သောအလင်းရောင်တွင်၊ ဂျပန်ရိုးရာပုံပြင်မှ မှော်ဆရာ yōkai ၏ ကိုမာယို ဇာတ်လမ်းကို ရှာဖွေပါ။ ဆွဲဆောင်မှုရှိပြီး သေစေတတ်သော၊ သူမသည် သူတို့၏အသက်စွမ်းအင်ကို စုပ်ယူကာ ထာဝရညှဉ်းဆဲခြင်းသို့ လွှမ်းမိုးသွားသော ōgi ဂိမ်းတွင် ဆုံးရှုံးသွားသောဝိညာဉ်များကို ဆွဲဆောင်သည်။ ၎င်းသည် ပြင်းထန်သောဆွဲဆောင်မှုနှင့် မလိုအပ်သောဆန္ဒများ၏ ဇာတ်လမ်းဖြစ်ပြီး၊ သွေးဆောင်မှုအန္တရာယ်များကို ဆန့်ကျင်သည့် ပြင်းထန်သောသတိပေးချက်တစ်ခုဖြစ်သည်။",
-        "image": "https://my.komayo.page/img/komayo-1024x1024.webp",
-        "datePublished": "2023-06-26",
-        "dateModified": "2023-06-26",
-        "keywords": "တစ္ဆေဇာတ်လမ်း, ကိုမာယို, obake, ōgi, shōgi, yōkai, yūrei"
+        "alternativeHeadline": "ဩဂီ ကစားသမား၏ ဒဏ္ဍာရီ",
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "ဂျပန်ဒဏ္ဍာရီ ဝါသနာရှင်များ"
+        },
+        "educationalLevel": "အများပြည်သူအတွက်",
+        "educationalUse": "ဖျော်ဖြေရေးနှင့် ယဉ်ကျေးမှု",
+        "fileFormat": "text/html",
+        "interactivityType": "expositive",
+        "learningResourceType": "ပုံပြင်",
+        "pattern": "ရိုးရာဂျပန်သရဲပုံပြင်",
+        "sourceOrganization": {
+          "@type": "Organization",
+          "name": "Sashité",
+          "url": "https://sashite.com/"
+        },
+        "spatialCoverage": {
+          "@type": "Place",
+          "name": "ကန်ဆိုင်းဒေသ၊ ဂျပန်"
+        },
+        "thumbnailUrl": "https://my.komayo.page/img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_200.webp",
+        "version": "1.0"
       }
     </script>
   </head>
 
   <body>
-    <header>
-      <picture>
-        <source srcset="komayo-light.svg" media="(prefers-color-scheme: light)">
-        <img
-          src="komayo-dark.svg"
-          alt="Komayō"
-          title="ကိုမာယို"
-          height="22"
-          width="92">
-      </picture>
-    </header>
+    <main>
+      <article itemscope itemtype="https://schema.org/ShortStory">
+        <h1 itemprop="headline">ဩဂီ အစိတ်အပိုင်းများ၏ စုန်းမ</h1>
 
-    <article>
-  <h1>
-    မြို့ပြဒဏ္ဍာရီ
-  </h1>
+        <p itemprop="description">
+          နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ စွဲမက်ဖွယ်ကောင်းသော နတ်ဆိုးတစ်ကောင်သည် လမ်းပျောက်နေသော ခရီးသွားများကို ဆွဲဆောင်ရန် ပေါ်လာသည်ဟု ပြောကြသည်။
+        </p>
 
-  <p>ဂျပန်နိုင်ငံရဲ့ ඈතကျသောကျေးလက်ဒေသမှာ လရောင်အောက်မှာ လှည့်လည်သွားလာနေတဲ့ စိတ်ခြောက်ခြားဖွယ်အလှတရားတစ်ပါးရှိတယ်လို့ ဆိုကြပါတယ်။ အချို့က သူမကို တိုးတိုးတိတ်တိတ် &quot;ကိုမာယို&quot; လို့ ခေါ်ဝေါ်ကြပါတယ်။ သူမအကြောင်း ကြားရခဲတဲ့ ဇာတ်လမ်းတွေက ရှားပါးပြီး လျှို့ဝှက်ဆန်းကြယ်မှုတွေနဲ့ ပြည့်နှက်နေပါတယ်။ အဆိုပါဇာတ်လမ်းတွေက သန်းခေါင်ယံအပြာရောင် ကီမိုနိုဝတ်ထားတဲ့ ကျက်သရေရှိတဲ့ ပုံရိပ်တစ်ခုအကြောင်းကို ပြောပြကြပြီး အထီးကျန် ခရီးသွားတွေကို သူတို့ရဲ့ အထီးကျန်မှုက ဆွဲဆောင်သလို သူတို့ရှေ့မှာ ပေါ်လာတတ်တယ်လို့ ဆိုကြပါတယ်။ တစ်ချို့က သူမဟာ သူတို့ကို ရှေးဟောင်း ဂိမ်းတစ်ခုကစားဖို့ စိန်ခေါ်ခဲ့တယ်လို့ ဆိုကြပြီး အဲဒီဂိမ်းရဲ့ စည်းမျဉ်းတွေကတော့ အချိန်ကြာလာတာနဲ့အမျှ မေ့ပျောက်သွားခဲ့ပြီး ဂျပန်ရိုးရာ စစ်တုရင် (shogi) နဲ့ ဆင်တူပါတယ်။ ဒီစိန်ခေါ်မှုကို လက်ခံသူတွေက နောက်တစ်နေ့မှာ ထူးဆန်းတဲ့ အပြုံးတစ်ခုနဲ့အတူ သူတို့ဘေးမှာ ဂိမ်းဘုတ်တစ်ခုနဲ့ ပြန်တွေ့ရတယ်လို့ ဆိုပါတယ်။ သူတို့ရဲ့ စိတ်ဟာ နက်နဲမှုတစ်ခုထဲကို ရောက်သွားပြီး နားလည်ရခက်တဲ့ လျှို့ဝှက်ဆန်းကြယ်မှုတစ်ခုက ဖမ်းစားခံထားရသလိုပါပဲ။</p>
+        <picture>
+          <img
+            itemprop="image"
+            width="1024"
+            height="1024"
+            sizes="(max-width: 1024px) 100vw, 1024px"
+            srcset="
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_200.webp 200w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_327.webp 327w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_427.webp 427w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_519.webp 519w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_602.webp 602w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_683.webp 683w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_713.webp 713w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_880.webp 880w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_967.webp 967w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_1004.webp 1004w,
+              img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_1024.webp 1024w"
+            src="img/asian-woman-blue-kimono-moonlight-night-walk-thailand-illustration_dgltgw_c_scale,w_1024.webp"
+            alt="လပြည့်ညတွင် အပြာရောင်နက်ကီမိုနိုဝတ်ထားပြီး ဆံပင်ရှည်ရှည်နက်နက်ရှိသော အမျိုးသမီးငယ်တစ်ဦး၏ အနုပညာလက်ရာပုံ"
+          >
+        </picture>
 
+        <p>
+          လှပဆန်းကြယ်ပြီး တွန့်လိမ်နေသော ပုံစံများပါသော ကီမိုနို ဝတ်ဆင်ထားသော <cite itemprop="character">ကိုမာယို</cite> သည် သူမ၏ခုခံ၍မရနိုင်သော ဆွဲဆောင်မှုဖြင့် ထိုကံဆိုးမိုးမှောင်ကျသူများကို <a href="https://ogi.page/" itemprop="mentions" itemscope itemtype="https://schema.org/Game" rel="external"><strong itemprop="name">ဩဂီ</strong></a> ကစားနည်းကို လိမ်လည်စွာ ကမ်းလှမ်းကာ သွေးဆောင်လေသည်။ သူမ၏ဖိတ်ခေါ်မှုကို လက်ခံသူများသည် မြင့်မြတ်သော စစ်တုရင်ကွက်ပေါ်တွင် ရွေ့လျားမှုများ၏ ဖမ်းဆုပ်၍မရသော လမ်းကြောင်းထဲသို့ ရောက်ရှိသွားကြသည်။
+        </p>
 
-  <picture>
-    <source type="image/webp" srcset="img/komayo-512x512.webp" media="(max-width: 512px)" height="512" width="512">
-    <source type="image/webp" srcset="img/komayo-1024x1024.webp" media="(min-width: 512px)" height="1024" width="1024">
+        <p>
+          သို့သော် ချမ်းနားခရမ်းပင်များအောက်တွင် ကစားနည်း ဆက်လက်ဖြစ်ပွားနေစဉ်၊ စိုးရိမ်ဖွယ်ရာ မောပန်းမှုသည် ကစားသမားများကို လွှမ်းမိုးလာပြီး သူတို့၏ဆုံးဖြတ်ချက်များကို ဝေဝါးစေကာ သူတို့၏အရိုးများထဲသို့ စီးဝင်သွားပြီး မဲခေါင်မြစ်ရေများကဲ့သို့ နက်ရှိုင်းသော အိပ်ပျော်ခြင်းသို့ မလွဲမသွေ ပို့ဆောင်ပေးလေသည်။
+        </p>
 
-    <img
-      src="img/komayo-1024x1024.jpg"
-      alt="ကိုမာယို, yōkai, ōgi ဂိမ်းတစ်ခုအတွင်းပြသသည်။ သူ့ဘေးမှာ မောပန်းနွမ်းနယ်နေတဲ့ သားကောင်ကို တွေ့နိုင်ပါတယ်။"
-      title="ကိုမယ်ယော့ရဲ့ ဆွဲဆောင်မှုရှိသော အိုဂျီဂိမ်း နှင့် မရှောင်လွှတ်နိုင်သော အိပ်မက်ပြည့်ဝသော အိပ်စက်မှု"
-      height="1024"
-      width="1024">
-  </picture>
-</article>
+        <p>
+          ထိုနက်ရှိုင်းသော အနားယူချိန်အတွင်း ကိုမာယို သည် သူမ၏စစ်မှန်သော နတ်ဆိုးသဘောသဘာဝကို ဖော်ပြသည်။ သူမသည် သူတို့၏ဇီဝစွမ်းအားကို စုပ်ယူပြီး သူတို့၏ယခင်ကြံ့ခိုင်မှု၏ ဗလာဖြစ်သော ပဲ့တင်သံကိုသာ နောက်တွင်ချန်ထားခဲ့သည်။ ဤသားကောင်များ၏ဝိညာဉ်များသည် အကြမ်းဖက်သေဆုံးသူများ၏ဝိညာဉ်များဖြစ်သော နတ်ဆိုးသို့ ပြောင်းလဲသွားပြီး အဆုံးမရှိ လှည့်လည်သွားလာခြင်းကို ခံရသည်။ ကိုမာယို ၏ စွဲမက်ဖွယ်ကောင်းသော အမှတ်တရများနှင့် ဩဂီ ပွဲကို အဆုံးသတ်ရန် အချည်းနှီးမျှော်လင့်ချက်ဖြင့် ညှဉ်းပန်းနှိပ်စက်ခြင်းခံရကာ သူတို့သည် မြူဆိုင်းနေသော လယ်ကွင်းများတွင် မပြီးဆုံးသော ရှာဖွေမှုနှင့် ပျက်စီးသွားသော အိပ်မက်တစ်ခု၏ အကျဉ်းသားများအဖြစ် ထာဝရ လှည့်လည်နေကြသည်။
+        </p>
 
+        <p>
+          ဤပုံပြင်သည် ရှေးဟောင်းဘုရားကျောင်းများ၏ ဒဏ္ဍာရီများနှင့် ခေါင်းပါးသောကျေးရွာများ၏ လျှို့ဝှက်ဆန်းကြယ်သော ပုံပြင်များမှ ဆင်းသက်လာပြီး အချိန်ကြာလာသည်နှင့်အမျှ မသိသော အရာများ၏ဆွဲဆောင်မှုနှင့် မဆင်မခြင် အပျော်အပါးလိုက်စားခြင်းကို သတိပေးချက်တစ်ခု ဖြစ်လာခဲ့သည်။ ဤသည်မှာ ခေတ်အဆက်ဆက်တွင် ပဲ့တင်ထပ်နေသော သတိပေးချက်တစ်ခုဖြစ်ပြီး တပ်မက်မှုနှင့် ပျက်စီးခြင်းကို ခွဲခြားထားသော သိမ်မွေ့သော မျဉ်းကြောင်း၏ သတိပေးချက်တစ်ခု ဖြစ်ပါသည်။
+        </p>
+      </article>
+    </main>
 
+    <footer>
+      <p>
+        &copy; 2023 Cyril Veltin.
+        မူပိုင်ခွင့်အားလုံး လက်ဝယ်ထားရှိသည်။
+        <a title="ဘာသာစကားပြောင်းရန်" href="https://komayo.page/"><img
+          width="448"
+          height="416"
+          src="/icon/change-language.svg"
+          alt="ဘာသာစကားရွေးချယ်ခြင်း"
+          title="ဘာသာစကားပြောင်းရန်"
+        ></a>
+      </p>
+    </footer>
   </body>
 </html>
