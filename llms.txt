@@ -1,0 +1,32 @@
+# ဩဂီ အစိတ်အပိုင်းများ၏ စုန်းမ
+
+> နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ ဩဂီ ကစားသမားများကို ညဘက်ကစားပွဲများဆီသို့ ဆွဲဆောင်ပြီးနောက် နတ်ဆိုးအဖြစ်သို့ ပြောင်းလဲစေသော ကိုမာယို ဟုခေါ်သော နတ်ဆိုးတစ်ကောင်အကြောင်း ဂျပန်ရိုးရာပုံပြင်တစ်ပုဒ်။
+
+## ကိုမာယို
+
+- [ဩဂီ အစိတ်အပိုင်းများ၏ စုန်းမ](https://my.komayo.page/): နခွန်ရတ်ချစီမာခရိုင်တွင် လပြည့်သောညတွင် ငွေရောင်လရောင်သည် လယ်ကွင်းများကို ရေစိုပြီးနေသောအခါ၊ ဩဂီ ကစားသမားများကို ညဘက်ကစားပွဲများဆီသို့ ဆွဲဆောင်ပြီးနောက် နတ်ဆိုးအဖြစ်သို့ ပြောင်းလဲစေသော ကိုမာယို ဟုခေါ်သော နတ်ဆိုးတစ်ကောင်အကြောင်း ဂျပန်ရိုးရာပုံပြင်တစ်ပုဒ်။
+
+## Optional
+
+- [বাংলা](https://bn.komayo.page/)
+- [English](https://en.komayo.page/)
+- [فارسی](https://fa.komayo.page/)
+- [Français](https://fr.komayo.page/)
+- [ગુજરાતી](https://gu.komayo.page/)
+- [हिन्दी](https://hi.komayo.page/)
+- [Bahasa Indonesia](https://id.komayo.page/)
+- [日本語](https://ja.komayo.page/)
+- [Basa Jawa](https://jv.komayo.page/)
+- [ಕನ್ನಡ](https://kn.komayo.page/)
+- [한국어](https://ko.komayo.page/)
+- [ພາສາລາວ](https://lo.komayo.page/)
+- [മലയാളം](https://ml.komayo.page/)
+- [मराठी](https://mr.komayo.page/)
+- [ଓଡ଼ିଆ](https://or.komayo.page/)
+- [ਪੰਜਾਬੀ](https://pa.komayo.page/)
+- [தமிழ்](https://ta.komayo.page/)
+- [తెలుగు](https://te.komayo.page/)
+- [ภาษาไทย](https://th.komayo.page/)
+- [اردو](https://ur.komayo.page/)
+- [Tiếng Việt](https://vi.komayo.page/)
+- [中文](https://zh.komayo.page/)
